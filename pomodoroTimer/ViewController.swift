@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import MBCircularProgressBar
 
 class ViewController: UIViewController {
 
@@ -14,6 +15,18 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func startButton(_ sender: UIButton) {
+    
+    }
+    
+    @IBAction func stopButton(_ sender: UIButton) {
+        
+    }
+    
+    
+    @IBAction func resetButton(_ sender: UIButton) {
+    }
+    
+    
 }
 
