@@ -109,6 +109,9 @@
                             <constraint firstItem="rQd-AM-XOI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yHi-6l-6Xk"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="progressBarView" destination="rQd-AM-XOI" id="FeI-ej-y5b"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
