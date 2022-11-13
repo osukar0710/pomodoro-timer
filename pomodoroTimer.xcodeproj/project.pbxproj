@@ -16,6 +16,9 @@
 		3B8E4FA52921402900EBA971 /* pomodoroTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E4FA42921402900EBA971 /* pomodoroTimerTests.swift */; };
 		3B8E4FAF2921402900EBA971 /* pomodoroTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E4FAE2921402900EBA971 /* pomodoroTimerUITests.swift */; };
 		3B8E4FB12921402900EBA971 /* pomodoroTimerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E4FB02921402900EBA971 /* pomodoroTimerUITestsLaunchTests.swift */; };
+		40B4E337D6B959795E674FE3 /* Pods_pomodoroTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 463CA1CD095B2C644976BB5B /* Pods_pomodoroTimer.framework */; };
+		481B15FC1F33FE198B4C985E /* Pods_pomodoroTimerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD49BFA02BD4F5FE1D2D3C63 /* Pods_pomodoroTimerTests.framework */; };
+		6F0D62593978915A1B063D91 /* Pods_pomodoroTimer_pomodoroTimerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1815E7854E1D26AD242ED7FB /* Pods_pomodoroTimer_pomodoroTimerUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1815E7854E1D26AD242ED7FB /* Pods_pomodoroTimer_pomodoroTimerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pomodoroTimer_pomodoroTimerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B7F6B303EBD89126661EB62 /* Pods-pomodoroTimerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pomodoroTimerTests.debug.xcconfig"; path = "Target Support Files/Pods-pomodoroTimerTests/Pods-pomodoroTimerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		393A3BD6BB0858EE68171A28 /* Pods-pomodoroTimer-pomodoroTimerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pomodoroTimer-pomodoroTimerUITests.release.xcconfig"; path = "Target Support Files/Pods-pomodoroTimer-pomodoroTimerUITests/Pods-pomodoroTimer-pomodoroTimerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3B8E4F8A2921402600EBA971 /* pomodoroTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pomodoroTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B8E4F8D2921402600EBA971 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B8E4F8F2921402600EBA971 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		3B8E4FAA2921402900EBA971 /* pomodoroTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pomodoroTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B8E4FAE2921402900EBA971 /* pomodoroTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pomodoroTimerUITests.swift; sourceTree = "<group>"; };
 		3B8E4FB02921402900EBA971 /* pomodoroTimerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pomodoroTimerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		463CA1CD095B2C644976BB5B /* Pods_pomodoroTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pomodoroTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F020254372CF03C6CC191B /* Pods-pomodoroTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pomodoroTimer.release.xcconfig"; path = "Target Support Files/Pods-pomodoroTimer/Pods-pomodoroTimer.release.xcconfig"; sourceTree = "<group>"; };
+		A4C3DE9C545627EE572B8705 /* Pods-pomodoroTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pomodoroTimer.debug.xcconfig"; path = "Target Support Files/Pods-pomodoroTimer/Pods-pomodoroTimer.debug.xcconfig"; sourceTree = "<group>"; };
+		B1E0ADA54B313F255EF0B3F5 /* Pods-pomodoroTimer-pomodoroTimerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pomodoroTimer-pomodoroTimerUITests.debug.xcconfig"; path = "Target Support Files/Pods-pomodoroTimer-pomodoroTimerUITests/Pods-pomodoroTimer-pomodoroTimerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD49BFA02BD4F5FE1D2D3C63 /* Pods_pomodoroTimerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pomodoroTimerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D332C3CAFC434EB1684601E2 /* Pods-pomodoroTimerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pomodoroTimerTests.release.xcconfig"; path = "Target Support Files/Pods-pomodoroTimerTests/Pods-pomodoroTimerTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40B4E337D6B959795E674FE3 /* Pods_pomodoroTimer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				481B15FC1F33FE198B4C985E /* Pods_pomodoroTimerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F0D62593978915A1B063D91 /* Pods_pomodoroTimer_pomodoroTimerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				3B8E4FA32921402900EBA971 /* pomodoroTimerTests */,
 				3B8E4FAD2921402900EBA971 /* pomodoroTimerUITests */,
 				3B8E4F8B2921402600EBA971 /* Products */,
+				F2395F95B1B2E832C304DF12 /* Pods */,
+				8D4052487764E99C6F0CD06C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +144,30 @@
 			path = pomodoroTimerUITests;
 			sourceTree = "<group>";
 		};
+		8D4052487764E99C6F0CD06C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				463CA1CD095B2C644976BB5B /* Pods_pomodoroTimer.framework */,
+				1815E7854E1D26AD242ED7FB /* Pods_pomodoroTimer_pomodoroTimerUITests.framework */,
+				BD49BFA02BD4F5FE1D2D3C63 /* Pods_pomodoroTimerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2395F95B1B2E832C304DF12 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4C3DE9C545627EE572B8705 /* Pods-pomodoroTimer.debug.xcconfig */,
+				A1F020254372CF03C6CC191B /* Pods-pomodoroTimer.release.xcconfig */,
+				B1E0ADA54B313F255EF0B3F5 /* Pods-pomodoroTimer-pomodoroTimerUITests.debug.xcconfig */,
+				393A3BD6BB0858EE68171A28 /* Pods-pomodoroTimer-pomodoroTimerUITests.release.xcconfig */,
+				1B7F6B303EBD89126661EB62 /* Pods-pomodoroTimerTests.debug.xcconfig */,
+				D332C3CAFC434EB1684601E2 /* Pods-pomodoroTimerTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B8E4FB42921402900EBA971 /* Build configuration list for PBXNativeTarget "pomodoroTimer" */;
 			buildPhases = (
+				4D8521EA05C80234D7984194 /* [CP] Check Pods Manifest.lock */,
 				3B8E4F862921402600EBA971 /* Sources */,
 				3B8E4F872921402600EBA971 /* Frameworks */,
 				3B8E4F882921402600EBA971 /* Resources */,
+				D4539E36F79CB6A379B31D12 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B8E4FB72921402900EBA971 /* Build configuration list for PBXNativeTarget "pomodoroTimerTests" */;
 			buildPhases = (
+				2AEFA2876C155AF083A85FBE /* [CP] Check Pods Manifest.lock */,
 				3B8E4F9C2921402900EBA971 /* Sources */,
 				3B8E4F9D2921402900EBA971 /* Frameworks */,
 				3B8E4F9E2921402900EBA971 /* Resources */,
@@ -169,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B8E4FBA2921402900EBA971 /* Build configuration list for PBXNativeTarget "pomodoroTimerUITests" */;
 			buildPhases = (
+				2C0B4B520164792EEE7B4CF1 /* [CP] Check Pods Manifest.lock */,
 				3B8E4FA62921402900EBA971 /* Sources */,
 				3B8E4FA72921402900EBA971 /* Frameworks */,
 				3B8E4FA82921402900EBA971 /* Resources */,
+				36E7B410DB9B61EC934603A0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AEFA2876C155AF083A85FBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pomodoroTimerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C0B4B520164792EEE7B4CF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pomodoroTimer-pomodoroTimerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36E7B410DB9B61EC934603A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pomodoroTimer-pomodoroTimerUITests/Pods-pomodoroTimer-pomodoroTimerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pomodoroTimer-pomodoroTimerUITests/Pods-pomodoroTimer-pomodoroTimerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pomodoroTimer-pomodoroTimerUITests/Pods-pomodoroTimer-pomodoroTimerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D8521EA05C80234D7984194 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pomodoroTimer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4539E36F79CB6A379B31D12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pomodoroTimer/Pods-pomodoroTimer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pomodoroTimer/Pods-pomodoroTimer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pomodoroTimer/Pods-pomodoroTimer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3B8E4F862921402600EBA971 /* Sources */ = {
@@ -432,6 +581,7 @@
 		};
 		3B8E4FB52921402900EBA971 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4C3DE9C545627EE572B8705 /* Pods-pomodoroTimer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +610,7 @@
 		};
 		3B8E4FB62921402900EBA971 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1F020254372CF03C6CC191B /* Pods-pomodoroTimer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +639,7 @@
 		};
 		3B8E4FB82921402900EBA971 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B7F6B303EBD89126661EB62 /* Pods-pomodoroTimerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +660,7 @@
 		};
 		3B8E4FB92921402900EBA971 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D332C3CAFC434EB1684601E2 /* Pods-pomodoroTimerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +681,7 @@
 		};
 		3B8E4FBB2921402900EBA971 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1E0ADA54B313F255EF0B3F5 /* Pods-pomodoroTimer-pomodoroTimerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +700,7 @@
 		};
 		3B8E4FBC2921402900EBA971 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 393A3BD6BB0858EE68171A28 /* Pods-pomodoroTimer-pomodoroTimerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
