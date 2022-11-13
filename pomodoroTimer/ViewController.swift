@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var progressBarView: MBCircularProgressBarView!
     @IBOutlet weak var countText: UILabel!
     
+    @IBOutlet weak var startbuttonText: UIButton!
     var timer = Timer()
     var startProgressValue:Int = 0
     var maxTime:Int = 1500
@@ -25,7 +26,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func startButton(_ sender: UIButton) {
-        timer.invalidate()
+        startbuttonText.isHidden = true
         timer = Timer.scheduledTimer(
             timeInterval: 1.0,
             target: self,
@@ -36,11 +37,12 @@ class ViewController: UIViewController {
     }
     
     @IBAction func stopButton(_ sender: UIButton) {
-        
+        startbuttonText.isHidden = false
+        timer.invalidate()
     }
     
-    
     @IBAction func resetButton(_ sender: UIButton) {
+        startbuttonText.isHidden = false
         timer.invalidate()
         countText.text = "25:00"
         startProgressValue = 0

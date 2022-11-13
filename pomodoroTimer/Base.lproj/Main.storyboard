@@ -124,6 +124,7 @@
                     <connections>
                         <outlet property="countText" destination="ZNJ-al-kdm" id="k0t-v6-U62"/>
                         <outlet property="progressBarView" destination="rQd-AM-XOI" id="FeI-ej-y5b"/>
+                        <outlet property="startbuttonText" destination="DXY-L8-qwt" id="7f7-4F-KIp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
