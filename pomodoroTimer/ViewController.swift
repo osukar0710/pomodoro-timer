@@ -10,7 +10,8 @@ import MBCircularProgressBar
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var progressBarView: MBCircularProgressBarView!
+    @IBOutlet weak var runProgressBarView: MBCircularProgressBarView!
+    @IBOutlet weak var breaktimeProgressBarView: MBCircularProgressBarView!
     @IBOutlet weak var countText: UILabel!
     
     @IBOutlet weak var startbuttonText: UIButton!
@@ -20,8 +21,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        progressBarView.value = 0
-        progressBarView.maxValue = CGFloat(maxTime)
+        runProgressBarView.value = 0
+        runProgressBarView.maxValue = CGFloat(maxTime)
         
     }
 
@@ -46,7 +47,7 @@ class ViewController: UIViewController {
         timer.invalidate()
         countText.text = "25:00"
         startProgressValue = 0
-        progressBarView.value = 0
+        runProgressBarView.value = 0
     }
    
     @objc func updateTimer(){
@@ -54,16 +55,14 @@ class ViewController: UIViewController {
             //カウントラベル更新
             let minutesLabel:String
             let secondsLabel:String
-            maxTime -= 1
+            maxTime -= 1 // 25分（1500秒から減算）
             secondsLabel = String(format: "%02d", maxTime % 60)
-            
             minutesLabel = String(format: "%02d", maxTime / 60)
-//            print(minutesLabel)
-//            print(maxTime)
+
             countText.text = "\(minutesLabel):\(secondsLabel)"
             //プログレスバー更新
             startProgressValue += 1
-            progressBarView.value = CGFloat(startProgressValue)
+            runProgressBarView.value = CGFloat(startProgressValue)
         } else {
             timer.invalidate()
             countText.text = "25:00"
