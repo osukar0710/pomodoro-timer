@@ -13,8 +13,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var runProgressBarView: MBCircularProgressBarView!
     @IBOutlet weak var breaktimeProgressBarView: MBCircularProgressBarView!
     @IBOutlet weak var countText: UILabel!
-    
     @IBOutlet weak var startbuttonText: UIButton!
+    
     var timer = Timer()
     var startProgressValue:Int = 0
     var maxTime:Int = 1500
