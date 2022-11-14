@@ -10,6 +10,9 @@ import MBCircularProgressBar
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var pomodoroCounterLabel: UILabel!
+    
     @IBOutlet weak var runProgressBarView: MBCircularProgressBarView!
     @IBOutlet weak var breaktimeProgressBarView: MBCircularProgressBarView!
     @IBOutlet weak var countText: UILabel!
@@ -17,17 +20,20 @@ class ViewController: UIViewController {
     
     var timer = Timer()
     var startProgressValue:Int = 0
-    var maxTime:Int = 1500
+    var concentrationTime:Int = 1500
+    var breakTime:Int = 300
+    var openingTitleLabel = "PomodoroTimer"
     
     override func viewDidLoad() {
         super.viewDidLoad()
         runProgressBarView.value = 0
-        runProgressBarView.maxValue = CGFloat(maxTime)
+        runProgressBarView.maxValue = CGFloat(concentrationTime)
         
     }
 
     @IBAction func startButton(_ sender: UIButton) {
         startbuttonText.isHidden = true
+        titleLabel.text = "集中モード"
         timer = Timer.scheduledTimer(
             timeInterval: 1.0,
             target: self,
@@ -51,13 +57,13 @@ class ViewController: UIViewController {
     }
    
     @objc func updateTimer(){
-        if maxTime > 1 {
+        if concentrationTime > 1 {
             //カウントラベル更新
             let minutesLabel:String
             let secondsLabel:String
-            maxTime -= 1 // 25分（1500秒から減算）
-            secondsLabel = String(format: "%02d", maxTime % 60)
-            minutesLabel = String(format: "%02d", maxTime / 60)
+            concentrationTime -= 1 // 25分（1500秒から減算）
+            secondsLabel = String(format: "%02d", concentrationTime % 60)
+            minutesLabel = String(format: "%02d", concentrationTime / 60)
 
             countText.text = "\(minutesLabel):\(secondsLabel)"
             //プログレスバー更新

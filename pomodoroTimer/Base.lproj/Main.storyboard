@@ -21,32 +21,35 @@
                                 <rect key="frame" x="0.0" y="59" width="393" height="758.33333333333337"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gfN-3q-G9o" userLabel="topContainer">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="127.66666666666667"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="170.33333333333334"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1セット" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M8g-0s-dBk">
-                                                <rect key="frame" x="309.33333333333331" y="15.999999999999998" width="59.666666666666686" height="20.333333333333329"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0/4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M8g-0s-dBk">
+                                                <rect key="frame" x="336.66666666666669" y="8.0000000000000018" width="36.333333333333314" height="28.666666666666671"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="タイトル" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YGL-TB-1Du">
-                                                <rect key="frame" x="116" y="39" width="161" height="48"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pomodoro Timer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YGL-TB-1Du">
+                                                <rect key="frame" x="55.666666666666657" y="38.999999999999993" width="281.66666666666674" height="92.333333333333314"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="M8g-0s-dBk" secondAttribute="trailing" constant="24" id="H4d-sM-BkT"/>
-                                            <constraint firstItem="M8g-0s-dBk" firstAttribute="top" secondItem="gfN-3q-G9o" secondAttribute="top" constant="16" id="P6L-h8-5Om"/>
+                                            <constraint firstItem="YGL-TB-1Du" firstAttribute="centerX" secondItem="gfN-3q-G9o" secondAttribute="centerX" id="EIU-Zp-ck2"/>
+                                            <constraint firstItem="YGL-TB-1Du" firstAttribute="centerY" secondItem="gfN-3q-G9o" secondAttribute="centerY" id="FUK-FE-aZb"/>
+                                            <constraint firstAttribute="trailing" secondItem="M8g-0s-dBk" secondAttribute="trailing" constant="20" id="H4d-sM-BkT"/>
+                                            <constraint firstItem="M8g-0s-dBk" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="gfN-3q-G9o" secondAttribute="leading" constant="20" symbolic="YES" id="Hhj-i3-DP3"/>
+                                            <constraint firstItem="M8g-0s-dBk" firstAttribute="top" secondItem="gfN-3q-G9o" secondAttribute="top" constant="8" id="P6L-h8-5Om"/>
+                                            <constraint firstItem="YGL-TB-1Du" firstAttribute="top" secondItem="gfN-3q-G9o" secondAttribute="top" constant="39" id="Xnc-a1-mdN"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gH7-nW-2Sx" userLabel="middleContainer">
-                                        <rect key="frame" x="0.0" y="127.66666666666663" width="393" height="503"/>
+                                        <rect key="frame" x="0.0" y="170.33333333333334" width="393" height="460.33333333333326"/>
                                         <subviews>
                                             <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4IY-qy-WgC" customClass="MBCircularProgressBarView">
-                                                <rect key="frame" x="46.666666666666657" y="101.33333333333334" width="300" height="300"/>
+                                                <rect key="frame" x="46.666666666666657" y="79.999999999999972" width="300" height="300"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="300" id="F1w-m8-f2S"/>
@@ -87,11 +90,10 @@
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rQd-AM-XOI" customClass="MBCircularProgressBarView">
-                                                <rect key="frame" x="46.666666666666657" y="101.33333333333334" width="300" height="300"/>
+                                                <rect key="frame" x="46.666666666666657" y="79.999999999999972" width="300" height="300"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="25:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZNJ-al-kdm">
-                                                        <rect key="frame" x="87" y="122" width="126" height="57.5"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="25:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZNJ-al-kdm">
+                                                        <rect key="frame" x="87" y="121.33333333333336" width="125.66666666666669" height="57.333333333333329"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="48"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
@@ -101,6 +103,8 @@
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="300" id="WLm-8u-MT2"/>
                                                     <constraint firstAttribute="height" constant="300" id="WXD-Zx-FyR"/>
+                                                    <constraint firstItem="ZNJ-al-kdm" firstAttribute="centerY" secondItem="rQd-AM-XOI" secondAttribute="centerY" id="iTb-Q1-pvh"/>
+                                                    <constraint firstItem="ZNJ-al-kdm" firstAttribute="centerX" secondItem="rQd-AM-XOI" secondAttribute="centerX" id="uP3-3l-ZpH"/>
                                                 </constraints>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="color" keyPath="fontColor">
@@ -218,7 +222,7 @@
                             <constraint firstItem="l87-Kl-DxQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="2nn-YF-BSq"/>
                             <constraint firstItem="l87-Kl-DxQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="clg-Rf-c8h"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="l87-Kl-DxQ" secondAttribute="bottom" constant="0.67000000000000004" id="iZn-Fb-FqW"/>
-                            <constraint firstItem="gfN-3q-G9o" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.15" id="ltw-2Q-izW"/>
+                            <constraint firstItem="gfN-3q-G9o" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.2" id="ltw-2Q-izW"/>
                             <constraint firstItem="sIw-sS-aup" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.15" id="rhM-5A-uqG"/>
                             <constraint firstItem="l87-Kl-DxQ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="w5S-LR-t7H"/>
                         </constraints>
@@ -226,8 +230,10 @@
                     <connections>
                         <outlet property="breaktimeProgressBarView" destination="4IY-qy-WgC" id="dVm-Ho-2xe"/>
                         <outlet property="countText" destination="ZNJ-al-kdm" id="k0t-v6-U62"/>
+                        <outlet property="pomodoroCounterLabel" destination="M8g-0s-dBk" id="Rt3-pk-0rh"/>
                         <outlet property="runProgressBarView" destination="rQd-AM-XOI" id="FeI-ej-y5b"/>
                         <outlet property="startbuttonText" destination="DXY-L8-qwt" id="7f7-4F-KIp"/>
+                        <outlet property="titleLabel" destination="YGL-TB-1Du" id="02y-nd-iZ7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
