@@ -5,7 +5,6 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -46,54 +45,13 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gH7-nW-2Sx" userLabel="middleContainer">
-                                        <rect key="frame" x="0.0" y="170.33333333333334" width="393" height="460.33333333333326"/>
+                                        <rect key="frame" x="0.0" y="170.33333333333334" width="393" height="417.66666666666663"/>
                                         <subviews>
-                                            <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4IY-qy-WgC" customClass="MBCircularProgressBarView">
-                                                <rect key="frame" x="46.666666666666657" y="79.999999999999972" width="300" height="300"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="300" id="F1w-m8-f2S"/>
-                                                    <constraint firstAttribute="width" constant="300" id="mUU-V6-Iza"/>
-                                                </constraints>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="showValueString" value="NO"/>
-                                                    <userDefinedRuntimeAttribute type="color" keyPath="fontColor">
-                                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="maxValue">
-                                                        <real key="value" value="60"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="color" keyPath="progressColor">
-                                                        <color key="value" red="0.17254901959999999" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="color" keyPath="progressStrokeColor">
-                                                        <color key="value" red="0.17254901959999999" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="value">
-                                                        <real key="value" value="0.0"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="progressRotationAngle">
-                                                        <real key="value" value="50"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="progressAngle">
-                                                        <real key="value" value="100"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="progressLineWidth">
-                                                        <real key="value" value="10"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="color" keyPath="emptyLineColor">
-                                                        <color key="value" red="0.8784313725490196" green="0.92549019607843142" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="emptyLineWidth">
-                                                        <real key="value" value="10"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                            </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rQd-AM-XOI" customClass="MBCircularProgressBarView">
-                                                <rect key="frame" x="46.666666666666657" y="79.999999999999972" width="300" height="300"/>
+                                                <rect key="frame" x="46.666666666666657" y="58.666666666666657" width="300" height="300"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="25:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZNJ-al-kdm">
-                                                        <rect key="frame" x="87" y="121.33333333333336" width="125.66666666666669" height="57.333333333333329"/>
+                                                        <rect key="frame" x="87" y="121.3333333333333" width="125.66666666666669" height="57.333333333333329"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="48"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
@@ -148,24 +106,20 @@
                                             </view>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstItem="4IY-qy-WgC" firstAttribute="centerX" secondItem="gH7-nW-2Sx" secondAttribute="centerX" id="4Wa-ym-eIh"/>
                                             <constraint firstItem="rQd-AM-XOI" firstAttribute="centerX" secondItem="gH7-nW-2Sx" secondAttribute="centerX" id="5cL-vu-K8o"/>
                                             <constraint firstItem="rQd-AM-XOI" firstAttribute="centerY" secondItem="gH7-nW-2Sx" secondAttribute="centerY" id="6xm-fI-CEl"/>
-                                            <constraint firstItem="4IY-qy-WgC" firstAttribute="centerY" secondItem="gH7-nW-2Sx" secondAttribute="centerY" id="Blj-E4-E2K"/>
                                             <constraint firstItem="rQd-AM-XOI" firstAttribute="centerY" secondItem="gH7-nW-2Sx" secondAttribute="centerY" id="JFa-dg-f5Z"/>
-                                            <constraint firstItem="4IY-qy-WgC" firstAttribute="centerX" secondItem="gH7-nW-2Sx" secondAttribute="centerX" id="OZi-3c-JMC"/>
                                             <constraint firstItem="rQd-AM-XOI" firstAttribute="centerX" secondItem="gH7-nW-2Sx" secondAttribute="centerX" id="W2B-XR-Mxr"/>
-                                            <constraint firstItem="4IY-qy-WgC" firstAttribute="centerY" secondItem="gH7-nW-2Sx" secondAttribute="centerY" id="wZR-mr-p20"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sIw-sS-aup" userLabel="buttomContainer">
-                                        <rect key="frame" x="0.0" y="630.66666666666663" width="393" height="127.66666666666663"/>
+                                        <rect key="frame" x="0.0" y="588" width="393" height="170.33333333333337"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="51" translatesAutoresizingMaskIntoConstraints="NO" id="gbY-aU-dvW">
-                                                <rect key="frame" x="79.666666666666686" y="45.666666666666742" width="234" height="36"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="51" translatesAutoresizingMaskIntoConstraints="NO" id="gbY-aU-dvW">
+                                                <rect key="frame" x="59" y="50.999999999999993" width="275" height="68.333333333333314"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DXY-L8-qwt" userLabel="Start">
-                                                        <rect key="frame" x="0.0" y="0.0" width="43" height="36"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="57.666666666666664" height="68.333333333333329"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <state key="normal" title="Start">
@@ -176,7 +130,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GMY-EV-e9s" userLabel="Stop">
-                                                        <rect key="frame" x="93.999999999999986" y="0.0" width="41.000000000000014" height="36"/>
+                                                        <rect key="frame" x="108.66666666666667" y="0.0" width="57.666666666666671" height="68.333333333333329"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <state key="normal" title="Stop">
@@ -187,7 +141,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SQJ-7X-aDA" userLabel="Reset">
-                                                        <rect key="frame" x="186" y="0.0" width="48" height="36"/>
+                                                        <rect key="frame" x="217.33333333333331" y="0.0" width="57.666666666666686" height="68.333333333333329"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <state key="normal" title="Reset">
@@ -201,6 +155,7 @@
                                             </stackView>
                                         </subviews>
                                         <constraints>
+                                            <constraint firstItem="gbY-aU-dvW" firstAttribute="height" secondItem="sIw-sS-aup" secondAttribute="height" multiplier="0.4" id="P4C-KP-vf3"/>
                                             <constraint firstItem="gbY-aU-dvW" firstAttribute="centerY" secondItem="sIw-sS-aup" secondAttribute="centerY" id="dZZ-98-NsA"/>
                                             <constraint firstItem="gbY-aU-dvW" firstAttribute="centerX" secondItem="sIw-sS-aup" secondAttribute="centerX" id="xHe-cm-Kw6"/>
                                         </constraints>
@@ -221,14 +176,14 @@
                         <constraints>
                             <constraint firstItem="l87-Kl-DxQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="2nn-YF-BSq"/>
                             <constraint firstItem="l87-Kl-DxQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="clg-Rf-c8h"/>
+                            <constraint firstItem="gbY-aU-dvW" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.7" id="eTf-kJ-q50"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="l87-Kl-DxQ" secondAttribute="bottom" constant="0.67000000000000004" id="iZn-Fb-FqW"/>
                             <constraint firstItem="gfN-3q-G9o" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.2" id="ltw-2Q-izW"/>
-                            <constraint firstItem="sIw-sS-aup" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.15" id="rhM-5A-uqG"/>
+                            <constraint firstItem="sIw-sS-aup" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.2" id="rhM-5A-uqG"/>
                             <constraint firstItem="l87-Kl-DxQ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="w5S-LR-t7H"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="breaktimeProgressBarView" destination="4IY-qy-WgC" id="dVm-Ho-2xe"/>
                         <outlet property="countText" destination="ZNJ-al-kdm" id="k0t-v6-U62"/>
                         <outlet property="pomodoroCounterLabel" destination="M8g-0s-dBk" id="Rt3-pk-0rh"/>
                         <outlet property="runProgressBarView" destination="rQd-AM-XOI" id="FeI-ej-y5b"/>
@@ -241,9 +196,4 @@
             <point key="canvasLocation" x="17.557251908396946" y="83.098591549295776"/>
         </scene>
     </scenes>
-    <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-    </resources>
 </document>

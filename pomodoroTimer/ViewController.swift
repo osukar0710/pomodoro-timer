@@ -14,7 +14,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var pomodoroCounterLabel: UILabel!
     
     @IBOutlet weak var runProgressBarView: MBCircularProgressBarView!
-    @IBOutlet weak var breaktimeProgressBarView: MBCircularProgressBarView!
     @IBOutlet weak var countText: UILabel!
     @IBOutlet weak var startbuttonText: UIButton!
     
