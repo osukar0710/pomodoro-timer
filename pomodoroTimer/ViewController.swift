@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     
     var timer = Timer()
     var startProgressValue: Int = 0//プログレスバー開始値
-    var maxTime: Int = 1500// 修正　Max Timeへ　別で集中タイム変数作成
+    var maxTime: Int = 1500//プログレスバー最大値
     var concentrateTime: Int = 3//集中する時間設定
     var breakTime: Int = 3//休憩する時間設定
     var loopCounter: Int = 0
@@ -30,7 +30,7 @@ class ViewController: UIViewController {
     var modeSet: String = "concentrate"
     
     override func viewDidLoad() {
-        setupObserver()
+        setupObserver()//通知受信
         super.viewDidLoad()
         //初期値セット
         titleLabel.text = openingTitleLabel
@@ -57,6 +57,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func resetButton(_ sender: UIButton) {
+        //ボタン初期表示
         startbuttonText.isHidden = false
         resetbuttonText.isHidden = true
         timer.invalidate()
@@ -120,6 +121,7 @@ class ViewController: UIViewController {
 
             timer.invalidate()//タイマー停止
             //集中モード⇨休憩モード変更
+            //通知送信
             NotificationCenter.default.post(
                  name: .myNotification,
                  object: nil,
@@ -127,7 +129,7 @@ class ViewController: UIViewController {
           )
         }
     }
-    
+      //通知受信処理
     func setupObserver() {
         print("observer")
         NotificationCenter.default.addObserver(
@@ -141,6 +143,7 @@ class ViewController: UIViewController {
     @objc func handleNotification(_ sender: Notification) {
         print("handleNotification")
         print(modeSet)
+        //集中モードと休憩モード切替`
         switch modeSet {
         case "concentrate":
             breakModeSet()
@@ -160,6 +163,7 @@ class ViewController: UIViewController {
         default:
             break
         }
+        //セット終了処理
         if(loopCounter <= 3) {
             timerRun()
         } else {
