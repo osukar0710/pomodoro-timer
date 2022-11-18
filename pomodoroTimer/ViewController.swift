@@ -17,6 +17,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var runProgressBarView: MBCircularProgressBarView!
     @IBOutlet weak var timerTextLabel: UILabel!
     @IBOutlet weak var startbuttonText: UIButton!
+    @IBOutlet weak var stopbuttonText: UIButton!
+    @IBOutlet weak var resetbuttonText: UIButton!
     
     var timer = Timer()
     var startProgressValue: Int = 0//プログレスバー開始値
@@ -34,23 +36,29 @@ class ViewController: UIViewController {
         titleLabel.text = openingTitleLabel
         maxTime = concentrateTime
         runProgressBarView.value = 0
-//        runProgressBarView.maxValue = CGFloat(concentrationTime)
         runProgressBarView.maxValue = CGFloat(maxTime)//プログレスバー最大値
+        stopbuttonText.isHidden = true
+        resetbuttonText.isHidden = true
     }
 
     @IBAction func startButton(_ sender: UIButton) {
         startbuttonText.isHidden = true
+        stopbuttonText.isHidden = false
+        resetbuttonText.isHidden = true
         titleLabel.text = "集中モード"
         timerRun()
     }
     
     @IBAction func stopButton(_ sender: UIButton) {
         startbuttonText.isHidden = false
+        stopbuttonText.isHidden = true
+        resetbuttonText.isHidden = false
         timer.invalidate()
     }
     
     @IBAction func resetButton(_ sender: UIButton) {
         startbuttonText.isHidden = false
+        resetbuttonText.isHidden = true
         timer.invalidate()
         //タイマーリセット
         timerTextLabel.text = "25:00"
@@ -158,6 +166,8 @@ class ViewController: UIViewController {
             print("タイマー終了")
             titleLabel.text = "お疲れ様でした"
             timer.invalidate()
+            stopbuttonText.isHidden = true
+            resetbuttonText.isHidden = false
         }
     }
 }

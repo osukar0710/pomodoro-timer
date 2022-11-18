@@ -116,13 +116,13 @@
                                         <rect key="frame" x="0.0" y="588" width="393" height="170.33333333333337"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="51" translatesAutoresizingMaskIntoConstraints="NO" id="gbY-aU-dvW">
-                                                <rect key="frame" x="59" y="50.999999999999993" width="275" height="68.333333333333314"/>
+                                                <rect key="frame" x="39.333333333333343" y="50.999999999999993" width="314.33333333333326" height="68.333333333333314"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DXY-L8-qwt" userLabel="Start">
-                                                        <rect key="frame" x="0.0" y="0.0" width="57.666666666666664" height="68.333333333333329"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="70.666666666666671" height="68.333333333333329"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="Start">
+                                                        <state key="normal" title="スタート">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
                                                         <connections>
@@ -130,10 +130,10 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GMY-EV-e9s" userLabel="Stop">
-                                                        <rect key="frame" x="108.66666666666667" y="0.0" width="57.666666666666671" height="68.333333333333329"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                        <rect key="frame" x="121.66666666666666" y="0.0" width="71" height="68.333333333333329"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="Stop">
+                                                        <state key="normal" title="停止">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
                                                         <connections>
@@ -141,10 +141,10 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SQJ-7X-aDA" userLabel="Reset">
-                                                        <rect key="frame" x="217.33333333333331" y="0.0" width="57.666666666666686" height="68.333333333333329"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                        <rect key="frame" x="243.66666666666666" y="0.0" width="70.666666666666657" height="68.333333333333329"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="Reset">
+                                                        <state key="normal" title="リセット">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
                                                         <connections>
@@ -176,7 +176,7 @@
                         <constraints>
                             <constraint firstItem="l87-Kl-DxQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="2nn-YF-BSq"/>
                             <constraint firstItem="l87-Kl-DxQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="clg-Rf-c8h"/>
-                            <constraint firstItem="gbY-aU-dvW" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.7" id="eTf-kJ-q50"/>
+                            <constraint firstItem="gbY-aU-dvW" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.8" id="eTf-kJ-q50"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="l87-Kl-DxQ" secondAttribute="bottom" constant="0.67000000000000004" id="iZn-Fb-FqW"/>
                             <constraint firstItem="gfN-3q-G9o" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.2" id="ltw-2Q-izW"/>
                             <constraint firstItem="sIw-sS-aup" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.2" id="rhM-5A-uqG"/>
@@ -185,8 +185,10 @@
                     </view>
                     <connections>
                         <outlet property="pomodoroCounterLabel" destination="M8g-0s-dBk" id="Rt3-pk-0rh"/>
+                        <outlet property="resetbuttonText" destination="SQJ-7X-aDA" id="6wt-My-Kvy"/>
                         <outlet property="runProgressBarView" destination="rQd-AM-XOI" id="FeI-ej-y5b"/>
                         <outlet property="startbuttonText" destination="DXY-L8-qwt" id="7f7-4F-KIp"/>
+                        <outlet property="stopbuttonText" destination="GMY-EV-e9s" id="MAT-jh-fyV"/>
                         <outlet property="timerTextLabel" destination="ZNJ-al-kdm" id="k0t-v6-U62"/>
                         <outlet property="titleLabel" destination="YGL-TB-1Du" id="02y-nd-iZ7"/>
                     </connections>
