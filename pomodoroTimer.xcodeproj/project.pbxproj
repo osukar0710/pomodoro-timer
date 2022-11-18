@@ -164,7 +164,6 @@
 				1B7F6B303EBD89126661EB62 /* Pods-pomodoroTimerTests.debug.xcconfig */,
 				D332C3CAFC434EB1684601E2 /* Pods-pomodoroTimerTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

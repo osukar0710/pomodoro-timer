@@ -22,8 +22,8 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gfN-3q-G9o" userLabel="topContainer">
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="170.33333333333334"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0/4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M8g-0s-dBk">
-                                                <rect key="frame" x="336.66666666666669" y="8.0000000000000018" width="36.333333333333314" height="28.666666666666671"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" 0/4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M8g-0s-dBk">
+                                                <rect key="frame" x="331.33333333333331" y="8.0000000000000018" width="41.666666666666686" height="28.666666666666671"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -72,7 +72,7 @@
                                                         <real key="value" value="0.0"/>
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="maxValue">
-                                                        <real key="value" value="60"/>
+                                                        <real key="value" value="10"/>
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="decimalPlaces">
                                                         <integer key="value" value="0"/>
@@ -184,10 +184,10 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="countText" destination="ZNJ-al-kdm" id="k0t-v6-U62"/>
                         <outlet property="pomodoroCounterLabel" destination="M8g-0s-dBk" id="Rt3-pk-0rh"/>
                         <outlet property="runProgressBarView" destination="rQd-AM-XOI" id="FeI-ej-y5b"/>
                         <outlet property="startbuttonText" destination="DXY-L8-qwt" id="7f7-4F-KIp"/>
+                        <outlet property="timerTextLabel" destination="ZNJ-al-kdm" id="k0t-v6-U62"/>
                         <outlet property="titleLabel" destination="YGL-TB-1Du" id="02y-nd-iZ7"/>
                     </connections>
                 </viewController>
