@@ -6,6 +6,7 @@ target 'pomodoroTimer' do
 
   # Pods for pomodoroTimer
   pod "MBCircularProgressBar"
+  pod "SwiftLint"
 
   target 'pomodoroTimerTests' do
     inherit! :search_paths

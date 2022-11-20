@@ -1,16 +1,20 @@
 PODS:
   - MBCircularProgressBar (0.3.5)
+  - SwiftLint (0.49.1)
 
 DEPENDENCIES:
   - MBCircularProgressBar
+  - SwiftLint
 
 SPEC REPOS:
   trunk:
     - MBCircularProgressBar
+    - SwiftLint
 
 SPEC CHECKSUMS:
   MBCircularProgressBar: 0b795b722a5eb5b0923822f90474e2576a1a7855
+  SwiftLint: 32ee33ded0636d0905ef6911b2b67bbaeeedafa5
 
-PODFILE CHECKSUM: 6a696c2d19924f279ac90922eaca9c7bbe78decc
+PODFILE CHECKSUM: b4a46113cc918ea7e1b7a5c4423e53ae823fd25f
 
 COCOAPODS: 1.11.3

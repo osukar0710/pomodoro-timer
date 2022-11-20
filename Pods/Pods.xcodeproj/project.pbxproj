@@ -6,55 +6,81 @@
 	objectVersion = 55;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftLint;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		053B97B72CAEB6994B807B15E6C0793C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		09799A6C6F3EF681EC6AFB37B7FDFBA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		0EAF3D3A4225750A85D9907D125497E9 /* MBCircularProgressBarLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 691C811B4A5ED1B7DB5F9270093249F8 /* MBCircularProgressBarLayer.m */; };
-		2018B8EEBB508956A8FD7C74A42FD143 /* MBCircularProgressBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BED3DF66EFFFE5E67A271E405B2E9D /* MBCircularProgressBar-dummy.m */; };
+		0EAF3D3A4225750A85D9907D125497E9 /* MBCircularProgressBarLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2197BABC6B5646876E274B96491BC3 /* MBCircularProgressBarLayer.m */; };
+		2018B8EEBB508956A8FD7C74A42FD143 /* MBCircularProgressBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 517C5A8975DE75A9F105522791523F91 /* MBCircularProgressBar-dummy.m */; };
 		3AF59972CF9DE7354BF21402CC674065 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		3EAF6874DF3E15ED6DD684FC8E4CDBDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		3EB9A18052F2D841EEE0887EA18B27C8 /* Pods-pomodoroTimerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60384551533AF34DEBB289F3E1BBCE18 /* Pods-pomodoroTimerTests-dummy.m */; };
-		4D5832B0F2D08A990E3539FB7492433D /* Pods-pomodoroTimer-pomodoroTimerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7720E116D53616D20A55D057FD78CB01 /* Pods-pomodoroTimer-pomodoroTimerUITests-dummy.m */; };
-		7060E13986720A89C672C6AA7F528D19 /* Pods-pomodoroTimer-pomodoroTimerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0AFD991921F98F4D6BA239E606D0134 /* Pods-pomodoroTimer-pomodoroTimerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A2923EE6EC1969B993224C9B29D2273 /* MBCircularProgressBarLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = EA98EA0E0582CAD6B3DC8C6C54277F9F /* MBCircularProgressBarLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AAA701E1D3E5ACBCF8B6679B454433C0 /* Pods-pomodoroTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F48A8A2BFC0EAA9DE5EA4707EE30AFBC /* Pods-pomodoroTimer-dummy.m */; };
-		B4BB9632B410AE70CCEC18CA02F4C48E /* MBCircularProgressBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5620B37CD31A5CF57FFAF2E609E79C59 /* MBCircularProgressBarView.m */; };
-		BB640E657EABA5A5629D544C11059E7E /* example.png in Resources */ = {isa = PBXBuildFile; fileRef = 720E67C63738FE0942D869C8BE3FA45A /* example.png */; };
-		CCCC3058CA8FCD02B9D38E7F50F56D83 /* MBCircularProgressBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = EED82E4B81BA3E7859A623C182F5EDF7 /* MBCircularProgressBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E14133C7B4284ABA823A550AB32D56D0 /* Pods-pomodoroTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBB9D0EF40676BC7F97B0C129177AC73 /* Pods-pomodoroTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42BAD68536CA3ADF0097E377BD8B3711 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		470AAD0CBB2658D57CAB3AB5393EDD7F /* Pods-pomodoroTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F48A8A2BFC0EAA9DE5EA4707EE30AFBC /* Pods-pomodoroTimer-dummy.m */; };
+		6AD642A7BD2C6B6AC3B67EB4058B4CEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9A2923EE6EC1969B993224C9B29D2273 /* MBCircularProgressBarLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A7C047AAB7A35D780A5471E96CB3C3E /* MBCircularProgressBarLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4BB9632B410AE70CCEC18CA02F4C48E /* MBCircularProgressBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD1F3750992A285E1985A2BCE7E9FD0 /* MBCircularProgressBarView.m */; };
+		BC95570DCCDFE68ED9CB3DC333E609DC /* Pods-pomodoroTimer-pomodoroTimerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7720E116D53616D20A55D057FD78CB01 /* Pods-pomodoroTimer-pomodoroTimerUITests-dummy.m */; };
+		CCCC3058CA8FCD02B9D38E7F50F56D83 /* MBCircularProgressBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 12B97249A7CCB870E562140334EDD822 /* MBCircularProgressBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF232CE55A8B10EDD7A14E94C527F016 /* Pods-pomodoroTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBB9D0EF40676BC7F97B0C129177AC73 /* Pods-pomodoroTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E61F789CB5FFEF48FEEF9B19D5AC19FB /* Pods-pomodoroTimerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C77C9CA6770807499C35DA3E17971A43 /* Pods-pomodoroTimerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F0A2A519EDFE8BF62530A46DEC8E8402 /* MBCircularProgressBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B691CC3631F58858DC8202FDA8FA3F0 /* MBCircularProgressBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0A2A519EDFE8BF62530A46DEC8E8402 /* MBCircularProgressBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 213E337A24A958EED770B250C77F93AD /* MBCircularProgressBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0EE5712C65A44182E0E651C39EA1DA0 /* example.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0510FE4B46716A4C6A2DF2E44B6286 /* example.png */; };
 		F19C698DA0C0DE5096EACCDE63A174D0 /* MBCircularProgressBar-MBCircularProgressBar in Resources */ = {isa = PBXBuildFile; fileRef = 7CB12AE789452060456EBCEC68360820 /* MBCircularProgressBar-MBCircularProgressBar */; };
+		F6F5663753F223F6C0812CB2C58D3B3E /* Pods-pomodoroTimer-pomodoroTimerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0AFD991921F98F4D6BA239E606D0134 /* Pods-pomodoroTimer-pomodoroTimerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0E9B9309BFA7921B32450730A2B31B79 /* PBXContainerItemProxy */ = {
+		5262EE59BB0F8789AA230D292154E60C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+		6BF56B63D8812C58A63F6E6B81A9F4C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46FA1E1D7ABC29B96888E2D9085D474F;
+			remoteInfo = MBCircularProgressBar;
+		};
+		8DFC860CCB02531524E651E16A9DDF2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46FA1E1D7ABC29B96888E2D9085D474F;
+			remoteInfo = MBCircularProgressBar;
+		};
+		9FF65B2CA8E026D65972694EC61B1404 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+		A95B6EEE5B52A659A0570AE3A4996A9C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E266BE7787871786A8170C3309190D18;
 			remoteInfo = "Pods-pomodoroTimer";
 		};
-		52D6855E5CCB10E45EFF6F932096524C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 46FA1E1D7ABC29B96888E2D9085D474F;
-			remoteInfo = MBCircularProgressBar;
-		};
-		A9B35D72E0351C5A9B69A81365AF2AC9 /* PBXContainerItemProxy */ = {
+		E8971773349A2DB6122B9321E700A39F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8BA5E348E64AFAB335EC680A67122E64;
 			remoteInfo = "MBCircularProgressBar-MBCircularProgressBar";
-		};
-		CB2F334B8AC3B7FC4BDD4EA0E8A01D73 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 46FA1E1D7ABC29B96888E2D9085D474F;
-			remoteInfo = MBCircularProgressBar;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -62,20 +88,26 @@
 		0635E0C37A1B3B1FB127E841FBAC35CB /* Pods-pomodoroTimer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pomodoroTimer-acknowledgements.plist"; sourceTree = "<group>"; };
 		08D53FFCCDF8509AE86EDAAA0B93B299 /* Pods-pomodoroTimerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pomodoroTimerTests.release.xcconfig"; sourceTree = "<group>"; };
 		0CFCA48CF4911F8D75E3EF590236A4F0 /* Pods-pomodoroTimer-pomodoroTimerUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-pomodoroTimer-pomodoroTimerUITests"; path = Pods_pomodoroTimer_pomodoroTimerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12B97249A7CCB870E562140334EDD822 /* MBCircularProgressBarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBCircularProgressBarView.h; path = Pod/Classes/MBCircularProgressBarView.h; sourceTree = "<group>"; };
 		1398E36E252D6FE5D0D4A2A9636D914B /* Pods-pomodoroTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pomodoroTimer.release.xcconfig"; sourceTree = "<group>"; };
+		213E337A24A958EED770B250C77F93AD /* MBCircularProgressBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBCircularProgressBar-umbrella.h"; sourceTree = "<group>"; };
 		24E1774A23FC95B30AF27387E9B27F8F /* Pods-pomodoroTimerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-pomodoroTimerTests.modulemap"; sourceTree = "<group>"; };
+		28AA1D6C1C43FA15190EC3FAC0616219 /* ResourceBundle-MBCircularProgressBar-MBCircularProgressBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MBCircularProgressBar-MBCircularProgressBar-Info.plist"; sourceTree = "<group>"; };
 		29F66FF55D51DAE9A4DAC2DE06529AD5 /* Pods-pomodoroTimerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pomodoroTimerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2A203DC8558C65F182434921BE6530F2 /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
+		2A7C047AAB7A35D780A5471E96CB3C3E /* MBCircularProgressBarLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBCircularProgressBarLayer.h; path = Pod/Classes/MBCircularProgressBarLayer.h; sourceTree = "<group>"; };
+		2AFFA926A3A0894FE6E458B811EAF33B /* MBCircularProgressBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBCircularProgressBar-Info.plist"; sourceTree = "<group>"; };
 		38AA5F71EB2625E56639FF404D71B785 /* Pods-pomodoroTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pomodoroTimer.debug.xcconfig"; sourceTree = "<group>"; };
-		4B691CC3631F58858DC8202FDA8FA3F0 /* MBCircularProgressBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBCircularProgressBar-umbrella.h"; sourceTree = "<group>"; };
+		3F0510FE4B46716A4C6A2DF2E44B6286 /* example.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = example.png; path = Pod/Assets/example.png; sourceTree = "<group>"; };
+		4F9A2E3BE5A2A2319365E016444B514E /* MBCircularProgressBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBCircularProgressBar.release.xcconfig; sourceTree = "<group>"; };
+		517C5A8975DE75A9F105522791523F91 /* MBCircularProgressBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBCircularProgressBar-dummy.m"; sourceTree = "<group>"; };
 		55DAE291D02282AE67E3EAECAD260A0C /* Pods-pomodoroTimerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-pomodoroTimerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5620B37CD31A5CF57FFAF2E609E79C59 /* MBCircularProgressBarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBCircularProgressBarView.m; path = Pod/Classes/MBCircularProgressBarView.m; sourceTree = "<group>"; };
 		597CE84758EA8370F2ACF7ABDBA85757 /* Pods-pomodoroTimerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pomodoroTimerTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5C51A3E3DD6FF38BAA30C336E0153AE0 /* ResourceBundle-MBCircularProgressBar-MBCircularProgressBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MBCircularProgressBar-MBCircularProgressBar-Info.plist"; sourceTree = "<group>"; };
+		5A0D5ABEF0DA669A4F9128A843ABB0CD /* MBCircularProgressBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBCircularProgressBar-prefix.pch"; sourceTree = "<group>"; };
 		5F75B1A84B5D09459BB2F47310CD0A86 /* Pods-pomodoroTimer-pomodoroTimerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pomodoroTimer-pomodoroTimerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5FD1F3750992A285E1985A2BCE7E9FD0 /* MBCircularProgressBarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBCircularProgressBarView.m; path = Pod/Classes/MBCircularProgressBarView.m; sourceTree = "<group>"; };
 		60384551533AF34DEBB289F3E1BBCE18 /* Pods-pomodoroTimerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pomodoroTimerTests-dummy.m"; sourceTree = "<group>"; };
 		640B2CA36D53D84D0129B12A7FAC2E0B /* MBCircularProgressBar */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBCircularProgressBar; path = MBCircularProgressBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		691C811B4A5ED1B7DB5F9270093249F8 /* MBCircularProgressBarLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBCircularProgressBarLayer.m; path = Pod/Classes/MBCircularProgressBarLayer.m; sourceTree = "<group>"; };
-		720E67C63738FE0942D869C8BE3FA45A /* example.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = example.png; path = Pod/Assets/example.png; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7720E116D53616D20A55D057FD78CB01 /* Pods-pomodoroTimer-pomodoroTimerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pomodoroTimer-pomodoroTimerUITests-dummy.m"; sourceTree = "<group>"; };
 		7791F78F4E190CBADE07DE7C9477ABD6 /* Pods-pomodoroTimer */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-pomodoroTimer"; path = Pods_pomodoroTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,34 +117,38 @@
 		88D819E01357C4BB065E4A08B4AD0491 /* Pods-pomodoroTimerTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-pomodoroTimerTests"; path = Pods_pomodoroTimerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93761136787A5526E9323C013838892E /* Pods-pomodoroTimer-pomodoroTimerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-pomodoroTimer-pomodoroTimerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9876F6AB5A8AA00C0B92DBA88FA25210 /* Pods-pomodoroTimerTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pomodoroTimerTests-Info.plist"; sourceTree = "<group>"; };
-		98BED3DF66EFFFE5E67A271E405B2E9D /* MBCircularProgressBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBCircularProgressBar-dummy.m"; sourceTree = "<group>"; };
 		9BB01A95C8BCF72F0C60A753E19AEAF3 /* Pods-pomodoroTimer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-pomodoroTimer.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0AFD991921F98F4D6BA239E606D0134 /* Pods-pomodoroTimer-pomodoroTimerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-pomodoroTimer-pomodoroTimerUITests-umbrella.h"; sourceTree = "<group>"; };
-		A277C29DFA7BB910CED15F7A883EF23F /* MBCircularProgressBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBCircularProgressBar-prefix.pch"; sourceTree = "<group>"; };
-		B69ACF1DFD985A8B15D94696B1218E70 /* MBCircularProgressBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBCircularProgressBar-Info.plist"; sourceTree = "<group>"; };
+		B3D3567653DB56157D60024A0D6F120D /* MBCircularProgressBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBCircularProgressBar.modulemap; sourceTree = "<group>"; };
 		B98FEA3BF43A377BDB8B568BE1FD6F46 /* Pods-pomodoroTimer-pomodoroTimerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pomodoroTimer-pomodoroTimerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BBB9D0EF40676BC7F97B0C129177AC73 /* Pods-pomodoroTimer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-pomodoroTimer-umbrella.h"; sourceTree = "<group>"; };
-		C2323EA88B983011D22582C0630B14E9 /* MBCircularProgressBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBCircularProgressBar.modulemap; sourceTree = "<group>"; };
+		C0C49BDEECF01EBE21619AE10B43A41F /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
 		C77C9CA6770807499C35DA3E17971A43 /* Pods-pomodoroTimerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-pomodoroTimerTests-umbrella.h"; sourceTree = "<group>"; };
-		C8DDCAC5526523646ECDE2163C7A203F /* MBCircularProgressBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBCircularProgressBar.release.xcconfig; sourceTree = "<group>"; };
 		D3DD9052EC8E51C98FB09F79EF8C2023 /* Pods-pomodoroTimer-pomodoroTimerUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pomodoroTimer-pomodoroTimerUITests-Info.plist"; sourceTree = "<group>"; };
-		DBAAAE3C3199DF22FA227A80A170A8EE /* MBCircularProgressBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBCircularProgressBar.debug.xcconfig; sourceTree = "<group>"; };
 		DC460C1F610B19F272093E574024B4D7 /* Pods-pomodoroTimer-pomodoroTimerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pomodoroTimer-pomodoroTimerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E21947E0BA1771B1B7B33B6ABA4B00CB /* Pods-pomodoroTimer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pomodoroTimer-frameworks.sh"; sourceTree = "<group>"; };
 		E7CB98983D833D6E97DA83E2A56490E1 /* Pods-pomodoroTimer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pomodoroTimer-Info.plist"; sourceTree = "<group>"; };
-		EA98EA0E0582CAD6B3DC8C6C54277F9F /* MBCircularProgressBarLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBCircularProgressBarLayer.h; path = Pod/Classes/MBCircularProgressBarLayer.h; sourceTree = "<group>"; };
-		EED82E4B81BA3E7859A623C182F5EDF7 /* MBCircularProgressBarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBCircularProgressBarView.h; path = Pod/Classes/MBCircularProgressBarView.h; sourceTree = "<group>"; };
+		F488A04AAD22F7142B12EAD3B0B0131A /* MBCircularProgressBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBCircularProgressBar.debug.xcconfig; sourceTree = "<group>"; };
 		F48A8A2BFC0EAA9DE5EA4707EE30AFBC /* Pods-pomodoroTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pomodoroTimer-dummy.m"; sourceTree = "<group>"; };
+		FA2197BABC6B5646876E274B96491BC3 /* MBCircularProgressBarLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBCircularProgressBarLayer.m; path = Pod/Classes/MBCircularProgressBarLayer.m; sourceTree = "<group>"; };
 		FC67AB041EDD7D006C9FBE16D2F14684 /* Pods-pomodoroTimer-pomodoroTimerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-pomodoroTimer-pomodoroTimerUITests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1F3D791BD8BCB5129BA59A5423B8BBAE /* Frameworks */ = {
+		0968F071ABE8737FD3D16E7E87101779 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				053B97B72CAEB6994B807B15E6C0793C /* Foundation.framework in Frameworks */,
+				6AD642A7BD2C6B6AC3B67EB4058B4CEF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C08534A12B1B071B079BC82DA93E6BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42BAD68536CA3ADF0097E377BD8B3711 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +160,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4D39CD8199949C202D2150AB116E08F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9135865626D4528B4CB5F339224F3C17 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -132,30 +175,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B748A8E5970184132C6ABB3B21DDC3A3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F504D2B96C2307121126A3FCDCC37DFA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				09799A6C6F3EF681EC6AFB37B7FDFBA9 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		299AE029C1607461426F6C50EE722F14 /* Resources */ = {
+		06E0054D2BA0E36FDD70AE19CC308670 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				720E67C63738FE0942D869C8BE3FA45A /* example.png */,
+				3F0510FE4B46716A4C6A2DF2E44B6286 /* example.png */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		2D7EBF334FEAEEB8BF52CFFB5067FB8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C4637F07B8A6E3B8E27F6E57F0A2DBE /* MBCircularProgressBar */,
+				A648BC256E002E10601FDB3F65699459 /* SwiftLint */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3C4637F07B8A6E3B8E27F6E57F0A2DBE /* MBCircularProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				2A7C047AAB7A35D780A5471E96CB3C3E /* MBCircularProgressBarLayer.h */,
+				FA2197BABC6B5646876E274B96491BC3 /* MBCircularProgressBarLayer.m */,
+				12B97249A7CCB870E562140334EDD822 /* MBCircularProgressBarView.h */,
+				5FD1F3750992A285E1985A2BCE7E9FD0 /* MBCircularProgressBarView.m */,
+				06E0054D2BA0E36FDD70AE19CC308670 /* Resources */,
+				F8F6E015DFB155FF9056A603DA2528D3 /* Support Files */,
+			);
+			name = MBCircularProgressBar;
+			path = MBCircularProgressBar;
+			sourceTree = "<group>";
+		};
+		3C938108F20B56ABD2748ABC2EE1DBFE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A203DC8558C65F182434921BE6530F2 /* SwiftLint.debug.xcconfig */,
+				C0C49BDEECF01EBE21619AE10B43A41F /* SwiftLint.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint";
 			sourceTree = "<group>";
 		};
 		4598C2CD3183323D586A7DF3EBB704DA /* Pods-pomodoroTimer */ = {
@@ -222,26 +283,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		98436566CD55EAEE0AE6AF7A50953A03 /* MBCircularProgressBar */ = {
+		A648BC256E002E10601FDB3F65699459 /* SwiftLint */ = {
 			isa = PBXGroup;
 			children = (
-				EA98EA0E0582CAD6B3DC8C6C54277F9F /* MBCircularProgressBarLayer.h */,
-				691C811B4A5ED1B7DB5F9270093249F8 /* MBCircularProgressBarLayer.m */,
-				EED82E4B81BA3E7859A623C182F5EDF7 /* MBCircularProgressBarView.h */,
-				5620B37CD31A5CF57FFAF2E609E79C59 /* MBCircularProgressBarView.m */,
-				299AE029C1607461426F6C50EE722F14 /* Resources */,
-				EE1DEFE3082347251E98DB605FD8B096 /* Support Files */,
+				3C938108F20B56ABD2748ABC2EE1DBFE /* Support Files */,
 			);
-			name = MBCircularProgressBar;
-			path = MBCircularProgressBar;
-			sourceTree = "<group>";
-		};
-		B5E3767EAE7FC3CB9A50FD65ED126ACF /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				98436566CD55EAEE0AE6AF7A50953A03 /* MBCircularProgressBar */,
-			);
-			name = Pods;
+			name = SwiftLint;
+			path = SwiftLint;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -249,7 +297,7 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				B5E3767EAE7FC3CB9A50FD65ED126ACF /* Pods */,
+				2D7EBF334FEAEEB8BF52CFFB5067FB8B /* Pods */,
 				8566E44C5F3D45F876F9743497A9CB54 /* Products */,
 				76CF040B4CA42AE30ADB2980C908BDF4 /* Targets Support Files */,
 			);
@@ -261,22 +309,6 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		EE1DEFE3082347251E98DB605FD8B096 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C2323EA88B983011D22582C0630B14E9 /* MBCircularProgressBar.modulemap */,
-				98BED3DF66EFFFE5E67A271E405B2E9D /* MBCircularProgressBar-dummy.m */,
-				B69ACF1DFD985A8B15D94696B1218E70 /* MBCircularProgressBar-Info.plist */,
-				A277C29DFA7BB910CED15F7A883EF23F /* MBCircularProgressBar-prefix.pch */,
-				4B691CC3631F58858DC8202FDA8FA3F0 /* MBCircularProgressBar-umbrella.h */,
-				DBAAAE3C3199DF22FA227A80A170A8EE /* MBCircularProgressBar.debug.xcconfig */,
-				C8DDCAC5526523646ECDE2163C7A203F /* MBCircularProgressBar.release.xcconfig */,
-				5C51A3E3DD6FF38BAA30C336E0153AE0 /* ResourceBundle-MBCircularProgressBar-MBCircularProgressBar-Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/MBCircularProgressBar";
 			sourceTree = "<group>";
 		};
 		F5E9D19B307EEFCA591871F54EC75CF3 /* Pods-pomodoroTimerTests */ = {
@@ -295,6 +327,22 @@
 			path = "Target Support Files/Pods-pomodoroTimerTests";
 			sourceTree = "<group>";
 		};
+		F8F6E015DFB155FF9056A603DA2528D3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3D3567653DB56157D60024A0D6F120D /* MBCircularProgressBar.modulemap */,
+				517C5A8975DE75A9F105522791523F91 /* MBCircularProgressBar-dummy.m */,
+				2AFFA926A3A0894FE6E458B811EAF33B /* MBCircularProgressBar-Info.plist */,
+				5A0D5ABEF0DA669A4F9128A843ABB0CD /* MBCircularProgressBar-prefix.pch */,
+				213E337A24A958EED770B250C77F93AD /* MBCircularProgressBar-umbrella.h */,
+				F488A04AAD22F7142B12EAD3B0B0131A /* MBCircularProgressBar.debug.xcconfig */,
+				4F9A2E3BE5A2A2319365E016444B514E /* MBCircularProgressBar.release.xcconfig */,
+				28AA1D6C1C43FA15190EC3FAC0616219 /* ResourceBundle-MBCircularProgressBar-MBCircularProgressBar-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBCircularProgressBar";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -303,14 +351,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E61F789CB5FFEF48FEEF9B19D5AC19FB /* Pods-pomodoroTimerTests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2DCE28EBBD80691B1B9BB0BDAABCA311 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E14133C7B4284ABA823A550AB32D56D0 /* Pods-pomodoroTimer-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,11 +364,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF305772EC4587B482EB073A3354F043 /* Headers */ = {
+		A70555DD707856689BECC31BDFA74B03 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7060E13986720A89C672C6AA7F528D19 /* Pods-pomodoroTimer-pomodoroTimerUITests-umbrella.h in Headers */,
+				F6F5663753F223F6C0812CB2C58D3B3E /* Pods-pomodoroTimer-pomodoroTimerUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9177F5D986918BE9313D226C319592A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF232CE55A8B10EDD7A14E94C527F016 /* Pods-pomodoroTimer-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,17 +385,18 @@
 /* Begin PBXNativeTarget section */
 		1078BDD6D700D8E9C5635A676DF007C3 /* Pods-pomodoroTimer-pomodoroTimerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C2A88C48294291EB9113C4C14A5C342 /* Build configuration list for PBXNativeTarget "Pods-pomodoroTimer-pomodoroTimerUITests" */;
+			buildConfigurationList = B52DEC5648516DBB009BCE3D97C51590 /* Build configuration list for PBXNativeTarget "Pods-pomodoroTimer-pomodoroTimerUITests" */;
 			buildPhases = (
-				DF305772EC4587B482EB073A3354F043 /* Headers */,
-				26C2141856EC498CB1197AD78EC58A3A /* Sources */,
-				1F3D791BD8BCB5129BA59A5423B8BBAE /* Frameworks */,
-				0D163EF1D87204E829DDBDFA8A756E43 /* Resources */,
+				A70555DD707856689BECC31BDFA74B03 /* Headers */,
+				BCDCD33ABE2D1949E56A1F80C2B8B467 /* Sources */,
+				2C08534A12B1B071B079BC82DA93E6BB /* Frameworks */,
+				2FBF77E91420FCB1E9285CDC5186B24B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				56DACFA70C8B8A68509AF59701700F4C /* PBXTargetDependency */,
+				A0204DD9F41BEA06650E99CCB39ACF69 /* PBXTargetDependency */,
+				DEB998CE9FD7AB391CD505E45DAF1ED8 /* PBXTargetDependency */,
 			);
 			name = "Pods-pomodoroTimer-pomodoroTimerUITests";
 			productName = Pods_pomodoroTimer_pomodoroTimerUITests;
@@ -366,7 +415,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				40DA2B07098971972DD02090DA83720F /* PBXTargetDependency */,
+				7D1A6718116162BF553EC1F7AF0CABCB /* PBXTargetDependency */,
 			);
 			name = MBCircularProgressBar;
 			productName = MBCircularProgressBar;
@@ -385,7 +434,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				DF57DBA23BCBB96A229BFFBD3A66817C /* PBXTargetDependency */,
+				750DB209D92BC198457FE50C495C7B5D /* PBXTargetDependency */,
 			);
 			name = "Pods-pomodoroTimerTests";
 			productName = Pods_pomodoroTimerTests;
@@ -394,11 +443,11 @@
 		};
 		8BA5E348E64AFAB335EC680A67122E64 /* MBCircularProgressBar-MBCircularProgressBar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 847D906798263392A22F959DC7E328D8 /* Build configuration list for PBXNativeTarget "MBCircularProgressBar-MBCircularProgressBar" */;
+			buildConfigurationList = 44DA0030BF37ED280A91747C4B855C59 /* Build configuration list for PBXNativeTarget "MBCircularProgressBar-MBCircularProgressBar" */;
 			buildPhases = (
-				33C4DA139E5D4CF46ADE01B1A027DC82 /* Sources */,
-				B748A8E5970184132C6ABB3B21DDC3A3 /* Frameworks */,
-				3011C0E2EDBBF051E4BD12A635D22CAD /* Resources */,
+				D599602AECD8020D44C67D6A0C2A791E /* Sources */,
+				4D39CD8199949C202D2150AB116E08F4 /* Frameworks */,
+				7E3B5D49534C387FA9CF00F80DAFBBF3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -411,17 +460,18 @@
 		};
 		E266BE7787871786A8170C3309190D18 /* Pods-pomodoroTimer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5D39B8C164F8905ACD20CF22083163EE /* Build configuration list for PBXNativeTarget "Pods-pomodoroTimer" */;
+			buildConfigurationList = CCC8F7337F46226168E233AE360355CA /* Build configuration list for PBXNativeTarget "Pods-pomodoroTimer" */;
 			buildPhases = (
-				2DCE28EBBD80691B1B9BB0BDAABCA311 /* Headers */,
-				209D9AC57342354D33C0D90C382F1134 /* Sources */,
-				F504D2B96C2307121126A3FCDCC37DFA /* Frameworks */,
-				CE3E821A6044EDA5E0BA6FA39918EFEE /* Resources */,
+				E9177F5D986918BE9313D226C319592A /* Headers */,
+				E1D64954CCFD8457F7F2F93270DA9867 /* Sources */,
+				0968F071ABE8737FD3D16E7E87101779 /* Frameworks */,
+				5CE359D1EC55D6AF40957540250F687A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B6188DB80CB1CCFFE935C6E99FA88F53 /* PBXTargetDependency */,
+				AB09064332E8E51E4A0449C4585A27AE /* PBXTargetDependency */,
+				0E4CCE0172F84A904A546FD164CFE788 /* PBXTargetDependency */,
 			);
 			name = "Pods-pomodoroTimer";
 			productName = Pods_pomodoroTimer;
@@ -455,18 +505,12 @@
 				E266BE7787871786A8170C3309190D18 /* Pods-pomodoroTimer */,
 				1078BDD6D700D8E9C5635A676DF007C3 /* Pods-pomodoroTimer-pomodoroTimerUITests */,
 				629ADBCD01E11E5F90C8C190067EBE36 /* Pods-pomodoroTimerTests */,
+				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0D163EF1D87204E829DDBDFA8A756E43 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		25728E4AFAFE1E1E731EBE0C7F9EF2A6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -475,22 +519,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3011C0E2EDBBF051E4BD12A635D22CAD /* Resources */ = {
+		2FBF77E91420FCB1E9285CDC5186B24B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB640E657EABA5A5629D544C11059E7E /* example.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CE359D1EC55D6AF40957540250F687A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E3B5D49534C387FA9CF00F80DAFBBF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0EE5712C65A44182E0E651C39EA1DA0 /* example.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A28F59B47D91E39D1DE3CD5CCF9C7F9D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE3E821A6044EDA5E0BA6FA39918EFEE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -508,23 +559,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		209D9AC57342354D33C0D90C382F1134 /* Sources */ = {
+		BCDCD33ABE2D1949E56A1F80C2B8B467 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAA701E1D3E5ACBCF8B6679B454433C0 /* Pods-pomodoroTimer-dummy.m in Sources */,
+				BC95570DCCDFE68ED9CB3DC333E609DC /* Pods-pomodoroTimer-pomodoroTimerUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		26C2141856EC498CB1197AD78EC58A3A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4D5832B0F2D08A990E3539FB7492433D /* Pods-pomodoroTimer-pomodoroTimerUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		33C4DA139E5D4CF46ADE01B1A027DC82 /* Sources */ = {
+		D599602AECD8020D44C67D6A0C2A791E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -541,39 +584,59 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E1D64954CCFD8457F7F2F93270DA9867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				470AAD0CBB2658D57CAB3AB5393EDD7F /* Pods-pomodoroTimer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		40DA2B07098971972DD02090DA83720F /* PBXTargetDependency */ = {
+		0E4CCE0172F84A904A546FD164CFE788 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "MBCircularProgressBar-MBCircularProgressBar";
-			target = 8BA5E348E64AFAB335EC680A67122E64 /* MBCircularProgressBar-MBCircularProgressBar */;
-			targetProxy = A9B35D72E0351C5A9B69A81365AF2AC9 /* PBXContainerItemProxy */;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 9FF65B2CA8E026D65972694EC61B1404 /* PBXContainerItemProxy */;
 		};
-		56DACFA70C8B8A68509AF59701700F4C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MBCircularProgressBar;
-			target = 46FA1E1D7ABC29B96888E2D9085D474F /* MBCircularProgressBar */;
-			targetProxy = CB2F334B8AC3B7FC4BDD4EA0E8A01D73 /* PBXContainerItemProxy */;
-		};
-		B6188DB80CB1CCFFE935C6E99FA88F53 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MBCircularProgressBar;
-			target = 46FA1E1D7ABC29B96888E2D9085D474F /* MBCircularProgressBar */;
-			targetProxy = 52D6855E5CCB10E45EFF6F932096524C /* PBXContainerItemProxy */;
-		};
-		DF57DBA23BCBB96A229BFFBD3A66817C /* PBXTargetDependency */ = {
+		750DB209D92BC198457FE50C495C7B5D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-pomodoroTimer";
 			target = E266BE7787871786A8170C3309190D18 /* Pods-pomodoroTimer */;
-			targetProxy = 0E9B9309BFA7921B32450730A2B31B79 /* PBXContainerItemProxy */;
+			targetProxy = A95B6EEE5B52A659A0570AE3A4996A9C /* PBXContainerItemProxy */;
+		};
+		7D1A6718116162BF553EC1F7AF0CABCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MBCircularProgressBar-MBCircularProgressBar";
+			target = 8BA5E348E64AFAB335EC680A67122E64 /* MBCircularProgressBar-MBCircularProgressBar */;
+			targetProxy = E8971773349A2DB6122B9321E700A39F /* PBXContainerItemProxy */;
+		};
+		A0204DD9F41BEA06650E99CCB39ACF69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBCircularProgressBar;
+			target = 46FA1E1D7ABC29B96888E2D9085D474F /* MBCircularProgressBar */;
+			targetProxy = 8DFC860CCB02531524E651E16A9DDF2F /* PBXContainerItemProxy */;
+		};
+		AB09064332E8E51E4A0449C4585A27AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBCircularProgressBar;
+			target = 46FA1E1D7ABC29B96888E2D9085D474F /* MBCircularProgressBar */;
+			targetProxy = 6BF56B63D8812C58A63F6E6B81A9F4C5 /* PBXContainerItemProxy */;
+		};
+		DEB998CE9FD7AB391CD505E45DAF1ED8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 5262EE59BB0F8789AA230D292154E60C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		00B2315BE612316635932618FF6A64FD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8DDCAC5526523646ECDE2163C7A203F /* MBCircularProgressBar.release.xcconfig */;
+			baseConfigurationReference = 4F9A2E3BE5A2A2319365E016444B514E /* MBCircularProgressBar.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -606,46 +669,25 @@
 			};
 			name = Release;
 		};
-		07EDD8B6303B6BF0E5397704A96E089F /* Debug */ = {
+		1766D40D602B136401D61C049FDD2C5D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B98FEA3BF43A377BDB8B568BE1FD6F46 /* Pods-pomodoroTimer-pomodoroTimerUITests.debug.xcconfig */;
+			baseConfigurationReference = 4F9A2E3BE5A2A2319365E016444B514E /* MBCircularProgressBar.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-pomodoroTimer-pomodoroTimerUITests/Pods-pomodoroTimer-pomodoroTimerUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-pomodoroTimer-pomodoroTimerUITests/Pods-pomodoroTimer-pomodoroTimerUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MBCircularProgressBar";
+				IBSC_MODULE = MBCircularProgressBar;
+				INFOPLIST_FILE = "Target Support Files/MBCircularProgressBar/ResourceBundle-MBCircularProgressBar-MBCircularProgressBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = MBCircularProgressBar;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
 		1F686D321CC940AD2FE01F2CA4AC8A78 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBAAAE3C3199DF22FA227A80A170A8EE /* MBCircularProgressBar.debug.xcconfig */;
+			baseConfigurationReference = F488A04AAD22F7142B12EAD3B0B0131A /* MBCircularProgressBar.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -743,9 +785,47 @@
 			};
 			name = Debug;
 		};
-		4482FCF4956FAFA43908F50F148FBED0 /* Debug */ = {
+		4A1172F150CF2CE4343079C62E58FF34 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBAAAE3C3199DF22FA227A80A170A8EE /* MBCircularProgressBar.debug.xcconfig */;
+			baseConfigurationReference = 1398E36E252D6FE5D0D4A2A9636D914B /* Pods-pomodoroTimer.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-pomodoroTimer/Pods-pomodoroTimer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pomodoroTimer/Pods-pomodoroTimer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		52F8701D468A6E26BBAC05CE71D095F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F488A04AAD22F7142B12EAD3B0B0131A /* MBCircularProgressBar.debug.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MBCircularProgressBar";
 				IBSC_MODULE = MBCircularProgressBar;
@@ -756,6 +836,43 @@
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		5581473C5503E4E6F3F0A1D3388DCED4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38AA5F71EB2625E56639FF404D71B785 /* Pods-pomodoroTimer.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-pomodoroTimer/Pods-pomodoroTimer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pomodoroTimer/Pods-pomodoroTimer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -821,57 +938,20 @@
 			};
 			name = Release;
 		};
-		81C8736C64661E9411FD9E14D2BE21DB /* Release */ = {
+		AD81E62ACCB0B7A923FC8AA288F9921E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1398E36E252D6FE5D0D4A2A9636D914B /* Pods-pomodoroTimer.release.xcconfig */;
+			baseConfigurationReference = C0C49BDEECF01EBE21619AE10B43A41F /* SwiftLint.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-pomodoroTimer/Pods-pomodoroTimer-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-pomodoroTimer/Pods-pomodoroTimer.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		914B0E724928BE37F097A5C30153D165 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8DDCAC5526523646ECDE2163C7A203F /* MBCircularProgressBar.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MBCircularProgressBar";
-				IBSC_MODULE = MBCircularProgressBar;
-				INFOPLIST_FILE = "Target Support Files/MBCircularProgressBar/ResourceBundle-MBCircularProgressBar-MBCircularProgressBar-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = MBCircularProgressBar;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -950,7 +1030,60 @@
 			};
 			name = Release;
 		};
-		D9D60886685FC265B45AA8EB7D19F126 /* Release */ = {
+		E5289ACF490366979AC580C56EB5A620 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B98FEA3BF43A377BDB8B568BE1FD6F46 /* Pods-pomodoroTimer-pomodoroTimerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-pomodoroTimer-pomodoroTimerUITests/Pods-pomodoroTimer-pomodoroTimerUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pomodoroTimer-pomodoroTimerUITests/Pods-pomodoroTimer-pomodoroTimerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A203DC8558C65F182434921BE6530F2 /* SwiftLint.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5E4FBE404987732A135507127E7D132 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5F75B1A84B5D09459BB2F47310CD0A86 /* Pods-pomodoroTimer-pomodoroTimerUITests.release.xcconfig */;
 			buildSettings = {
@@ -988,43 +1121,6 @@
 			};
 			name = Release;
 		};
-		FBF6EC3D0BEA1CE90E72CAED759A5102 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38AA5F71EB2625E56639FF404D71B785 /* Pods-pomodoroTimer.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-pomodoroTimer/Pods-pomodoroTimer-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-pomodoroTimer/Pods-pomodoroTimer.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1033,6 +1129,15 @@
 			buildConfigurations = (
 				BAE34154E9C5519E47DA3E77136D069C /* Debug */,
 				BFF35CC70963C6841C461EB3ABA06D18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44DA0030BF37ED280A91747C4B855C59 /* Build configuration list for PBXNativeTarget "MBCircularProgressBar-MBCircularProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52F8701D468A6E26BBAC05CE71D095F2 /* Debug */,
+				1766D40D602B136401D61C049FDD2C5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1055,29 +1160,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C2A88C48294291EB9113C4C14A5C342 /* Build configuration list for PBXNativeTarget "Pods-pomodoroTimer-pomodoroTimerUITests" */ = {
+		AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				07EDD8B6303B6BF0E5397704A96E089F /* Debug */,
-				D9D60886685FC265B45AA8EB7D19F126 /* Release */,
+				EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */,
+				AD81E62ACCB0B7A923FC8AA288F9921E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5D39B8C164F8905ACD20CF22083163EE /* Build configuration list for PBXNativeTarget "Pods-pomodoroTimer" */ = {
+		B52DEC5648516DBB009BCE3D97C51590 /* Build configuration list for PBXNativeTarget "Pods-pomodoroTimer-pomodoroTimerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FBF6EC3D0BEA1CE90E72CAED759A5102 /* Debug */,
-				81C8736C64661E9411FD9E14D2BE21DB /* Release */,
+				E5289ACF490366979AC580C56EB5A620 /* Debug */,
+				F5E4FBE404987732A135507127E7D132 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		847D906798263392A22F959DC7E328D8 /* Build configuration list for PBXNativeTarget "MBCircularProgressBar-MBCircularProgressBar" */ = {
+		CCC8F7337F46226168E233AE360355CA /* Build configuration list for PBXNativeTarget "Pods-pomodoroTimer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4482FCF4956FAFA43908F50F148FBED0 /* Debug */,
-				914B0E724928BE37F097A5C30153D165 /* Release */,
+				5581473C5503E4E6F3F0A1D3388DCED4 /* Debug */,
+				4A1172F150CF2CE4343079C62E58FF34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

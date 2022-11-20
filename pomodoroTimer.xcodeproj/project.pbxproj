@@ -13,8 +13,8 @@
 		3B8E4F952921402600EBA971 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B8E4F932921402600EBA971 /* Main.storyboard */; };
 		3B8E4F972921402900EBA971 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B8E4F962921402900EBA971 /* Assets.xcassets */; };
 		3B8E4F9A2921402900EBA971 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B8E4F982921402900EBA971 /* LaunchScreen.storyboard */; };
-		3B8E4FA52921402900EBA971 /* pomodoroTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E4FA42921402900EBA971 /* pomodoroTimerTests.swift */; };
-		3B8E4FAF2921402900EBA971 /* pomodoroTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E4FAE2921402900EBA971 /* pomodoroTimerUITests.swift */; };
+		3B8E4FA52921402900EBA971 /* PomodoroTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E4FA42921402900EBA971 /* PomodoroTimerTests.swift */; };
+		3B8E4FAF2921402900EBA971 /* PomodoroTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E4FAE2921402900EBA971 /* PomodoroTimerUITests.swift */; };
 		3B8E4FB12921402900EBA971 /* pomodoroTimerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E4FB02921402900EBA971 /* pomodoroTimerUITestsLaunchTests.swift */; };
 		40B4E337D6B959795E674FE3 /* Pods_pomodoroTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 463CA1CD095B2C644976BB5B /* Pods_pomodoroTimer.framework */; };
 		481B15FC1F33FE198B4C985E /* Pods_pomodoroTimerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD49BFA02BD4F5FE1D2D3C63 /* Pods_pomodoroTimerTests.framework */; };
@@ -51,9 +51,9 @@
 		3B8E4F992921402900EBA971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B8E4F9B2921402900EBA971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B8E4FA02921402900EBA971 /* pomodoroTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pomodoroTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B8E4FA42921402900EBA971 /* pomodoroTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pomodoroTimerTests.swift; sourceTree = "<group>"; };
+		3B8E4FA42921402900EBA971 /* PomodoroTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroTimerTests.swift; sourceTree = "<group>"; };
 		3B8E4FAA2921402900EBA971 /* pomodoroTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pomodoroTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B8E4FAE2921402900EBA971 /* pomodoroTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pomodoroTimerUITests.swift; sourceTree = "<group>"; };
+		3B8E4FAE2921402900EBA971 /* PomodoroTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroTimerUITests.swift; sourceTree = "<group>"; };
 		3B8E4FB02921402900EBA971 /* pomodoroTimerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pomodoroTimerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		463CA1CD095B2C644976BB5B /* Pods_pomodoroTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pomodoroTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1F020254372CF03C6CC191B /* Pods-pomodoroTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pomodoroTimer.release.xcconfig"; path = "Target Support Files/Pods-pomodoroTimer/Pods-pomodoroTimer.release.xcconfig"; sourceTree = "<group>"; };
@@ -116,10 +116,11 @@
 		3B8E4F8C2921402600EBA971 /* pomodoroTimer */ = {
 			isa = PBXGroup;
 			children = (
+				3BEA0327292A0C470036B9AD /* Model */,
+				3BEA0329292A0C560036B9AD /* Controller */,
+				3BEA0328292A0C4E0036B9AD /* View */,
 				3B8E4F8D2921402600EBA971 /* AppDelegate.swift */,
 				3B8E4F8F2921402600EBA971 /* SceneDelegate.swift */,
-				3B8E4F912921402600EBA971 /* ViewController.swift */,
-				3B8E4F932921402600EBA971 /* Main.storyboard */,
 				3B8E4F962921402900EBA971 /* Assets.xcassets */,
 				3B8E4F982921402900EBA971 /* LaunchScreen.storyboard */,
 				3B8E4F9B2921402900EBA971 /* Info.plist */,
@@ -130,7 +131,7 @@
 		3B8E4FA32921402900EBA971 /* pomodoroTimerTests */ = {
 			isa = PBXGroup;
 			children = (
-				3B8E4FA42921402900EBA971 /* pomodoroTimerTests.swift */,
+				3B8E4FA42921402900EBA971 /* PomodoroTimerTests.swift */,
 			);
 			path = pomodoroTimerTests;
 			sourceTree = "<group>";
@@ -138,10 +139,33 @@
 		3B8E4FAD2921402900EBA971 /* pomodoroTimerUITests */ = {
 			isa = PBXGroup;
 			children = (
-				3B8E4FAE2921402900EBA971 /* pomodoroTimerUITests.swift */,
+				3B8E4FAE2921402900EBA971 /* PomodoroTimerUITests.swift */,
 				3B8E4FB02921402900EBA971 /* pomodoroTimerUITestsLaunchTests.swift */,
 			);
 			path = pomodoroTimerUITests;
+			sourceTree = "<group>";
+		};
+		3BEA0327292A0C470036B9AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3BEA0328292A0C4E0036B9AD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3B8E4F932921402600EBA971 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3BEA0329292A0C560036B9AD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B8E4F912921402600EBA971 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		8D4052487764E99C6F0CD06C /* Frameworks */ = {
@@ -179,6 +203,7 @@
 				3B8E4F872921402600EBA971 /* Frameworks */,
 				3B8E4F882921402600EBA971 /* Resources */,
 				D4539E36F79CB6A379B31D12 /* [CP] Embed Pods Frameworks */,
+				3BCF67D3292A086600775A39 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -360,6 +385,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pomodoroTimer-pomodoroTimerUITests/Pods-pomodoroTimer-pomodoroTimerUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		3BCF67D3292A086600775A39 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which \"${PODS_ROOT}/SwiftLint/swiftlint\" >/dev/null; then\n${PODS_ROOT}/SwiftLint/swiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
 		4D8521EA05C80234D7984194 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -416,7 +458,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B8E4FA52921402900EBA971 /* pomodoroTimerTests.swift in Sources */,
+				3B8E4FA52921402900EBA971 /* PomodoroTimerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,7 +466,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B8E4FAF2921402900EBA971 /* pomodoroTimerUITests.swift in Sources */,
+				3B8E4FAF2921402900EBA971 /* PomodoroTimerUITests.swift in Sources */,
 				3B8E4FB12921402900EBA971 /* pomodoroTimerUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
