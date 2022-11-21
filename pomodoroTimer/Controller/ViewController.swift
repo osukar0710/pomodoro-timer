@@ -23,14 +23,13 @@ class ViewController: UIViewController {
     static let concentrateTime: Int = 3// 集中する時間設定
     static let breakTime: Int = 3// 休憩する時間設定
     var loopCounter: Int = 0
-    var openingTitleLabel: String = "PomodoroTimer"
+    static let openingTitleLabel: String = "PomodoroTimer"
     var modeSet: String = "concentrate"
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 //        setupObserver()// 通知受信
         // 初期値セット
-        titleLabel.text = openingTitleLabel
+        titleLabel.text = ViewController.openingTitleLabel
         maxTime = ViewController.concentrateTime
         circlarProgressBarView.value = 0
         circlarProgressBarView.maxValue = CGFloat(maxTime)// プログレスバー最大値
@@ -59,7 +58,7 @@ class ViewController: UIViewController {
         // タイマーリセット
         timerTextLabel.text = "25:00"
         // タイトルリセット
-        titleLabel.text = openingTitleLabel
+        titleLabel.text = ViewController.openingTitleLabel
         // プログレスバーリセット
         progressBarMinimumValue = 0
         circlarProgressBarView.value = 0
@@ -198,6 +197,6 @@ class ViewController: UIViewController {
 //    }
 }
 
-//extension NSNotification.Name {
+// extension NSNotification.Name {
 //    static let myNotification = NSNotification.Name("Yoshi")
-//}
+// }
