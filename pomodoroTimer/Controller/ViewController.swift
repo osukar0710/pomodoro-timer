@@ -27,14 +27,14 @@ class ViewController: UIViewController {
     var modeSet: String = "concentrate"
     override func viewDidLoad() {
         super.viewDidLoad()
-//        setupObserver()// 通知受信
-        // 初期値セット
-        titleLabel.text = ViewController.openingTitleLabel
-        maxTime = ViewController.concentrateTime
-        circlarProgressBarView.value = 0
-        circlarProgressBarView.maxValue = CGFloat(maxTime)// プログレスバー最大値
-        stopButton.isHidden = true
-        resetButton.isHidden = true
+        configure()
+//        // 初期値セット
+//        titleLabel.text = openingTitleLabel
+//        maxTime = ViewController.concentrateTime
+//        circlarProgressBarView.value = 0
+//        circlarProgressBarView.maxValue = CGFloat(maxTime)// プログレスバー最大値
+//        stopButton.isHidden = true
+//        resetButton.isHidden = true
     }
 
     @IBAction func startButtonPressed(_ sender: UIButton) {
@@ -67,7 +67,15 @@ class ViewController: UIViewController {
         loopCounter = 0
         pomodoroCounterLabel.text = "\(loopCounter)/4"
         circlarProgressBarView.maxValue = CGFloat(maxTime)
-//        NotificationCenter.default.removeObserver(self)
+    }
+    //　初期化処理
+    private func configure() {
+        titleLabel.text = ViewController.openingTitleLabel
+        maxTime = ViewController.concentrateTime
+        circlarProgressBarView.value = 0
+        circlarProgressBarView.maxValue = CGFloat(maxTime)// プログレスバー最大値
+        stopButton.isHidden = true
+        resetButton.isHidden = true
     }
     private func timerRun() {
         timer = Timer.scheduledTimer(
@@ -110,25 +118,9 @@ class ViewController: UIViewController {
         } else {
             timer.invalidate()// タイマー停止
             // 集中モード⇨休憩モード変更
-            // 通知送信
-//            NotificationCenter.default.post(
-//                 name: .myNotification,
-//                 object: nil,
-//                 userInfo: ["name": "伝える内容"]
-//          )
         modeChange()
         }
     }
-      // 通知受信処理
-//    func setupObserver() {
-//        print("observer")
-//        NotificationCenter.default.addObserver(
-//            self,
-//            selector: #selector(self.handleNotification(_:)),
-//            name: .myNotification,
-//            object: nil // 複数のオブジェクトからの通知
-//        )
-//    }
     func modeChange() {
         // 集中モードと休憩モード切替`
         switch modeSet {
@@ -161,42 +153,4 @@ class ViewController: UIViewController {
             resetButton.isHidden = false
         }
     }
-//    @objc func handleNotification(_ sender: Notification) {
-//        print("handleNotification")
-//        print(modeSet)
-//        // 集中モードと休憩モード切替`
-//        switch modeSet {
-//        case "concentrate":
-//            breakModeSet()
-//            modeSet = "break"
-//        case "break":
-//            if loopCounter <= 3 {
-//                concentrateModeSet()
-//                modeSet = "concentrate"
-//                loopCounter += 1
-//                pomodoroCounterLabel.text = "\(loopCounter)/4"
-//                print(loopCounter)
-//            } else {
-//                print("終了")
-//                loopCounter += 1
-//                pomodoroCounterLabel.text = "\(loopCounter)/4"
-//            }
-//        default:
-//            break
-//        }
-//        // セット終了処理
-//        if loopCounter <= 3 {
-//            timerRun()
-//        } else {
-//            print("タイマー終了")
-//            titleLabel.text = "お疲れ様でした"
-//            timer.invalidate()
-//            stopButton.isHidden = true
-//            resetButton.isHidden = false
-//        }
-//    }
 }
-
-// extension NSNotification.Name {
-//    static let myNotification = NSNotification.Name("Yoshi")
-// }
